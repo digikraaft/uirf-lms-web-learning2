@@ -568,3 +568,20 @@
 .btn-brand.focus::before, .btn-brand:focus::before{
   border:0 !important;
 }
+.btn-primary, .btn-brand {
+  border-color: #ff7e2d !important;
+  background: #ff7e2d !important;
+}
+.xmodule_display.xmodule_ProblemBlock div.problem button.btn-brand:hover {
+  background-color: #f5e3c3 !important;
+  color:#ff7e2d !important;
+}
+.btn-primary:hover, .btn-brand:hover, .btn-primary.is-hovered, .is-hovered.btn-brand, .btn-primary:focus, .btn-brand:focus, .btn-primary.is-focused, .is-focused.btn-brand{
+  border-color: #ff7e2d !important;
+}
+.btn-tertiary:hover {
+  background-color: #f5e3c3 !important;
+}
+#outline-sidebar-outline .collapsible-body ol li>a:hover {
+  background-color: #f5e3c3 !important;
+}
