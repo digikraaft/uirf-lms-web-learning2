@@ -15,7 +15,6 @@ import DiscussionTab from './course-home/discussion-tab/DiscussionTab';
 import messages from './i18n';
 import { UserMessagesProvider } from './generic/user-messages';
 
-import './index.scss';
 import OutlineTab from './course-home/outline-tab';
 import { CourseExit } from './courseware/course/course-exit';
 import CoursewareContainer from './courseware';
@@ -35,6 +34,8 @@ import CourseAccessErrorPage from './generic/CourseAccessErrorPage';
 import DecodePageRoute from './decode-page-route';
 import { DECODE_ROUTES, ROUTES } from './constants';
 import PreferencesUnsubscribe from './preferences-unsubscribe';
+
+import './index.scss';
 
 subscribe(APP_READY, () => {
   ReactDOM.render(
