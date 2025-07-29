@@ -5,7 +5,7 @@ const FooterSlot = () => (
     <footer className="bg-primary px-4 xl:px-20 py-8 lg:px-10 xl:py-28 text-white">
       <div className="w-full flex flex-col justify-start lg:flex-row lg:items-start lg:justify-between space-x-10 text-white">
         <div className="w-full lg:w-auto flex justify-start lg:inline">
-          <img src="https://ask4bg.org/asset/logov.png" alt="ASK4BG logo" className="scale-50" />
+          <img src="https://ask4bg.org/asset/logov.png" alt="ASK4BG logo" className="md:scale-50 w-75 md:w-full mb-5 md:mb-0" />
         </div>
         <div className="grid grid-cols-2 xl:grid-cols-4 gap-10 xl:gap-4 font-roboto lg:w-2/3 xl:w-1/2">
           <div className="">

@@ -585,3 +585,32 @@
 #outline-sidebar-outline .collapsible-body ol li>a:hover {
   background-color: #f5e3c3 !important;
 }
+.course-tabs-navigation+.container-xl .donut-hole.complete-stroke, .course-tabs-navigation+.container-xl .donut-ring.complete-stroke, .course-tabs-navigation+.container-xl .donut-segment.complete-stroke {
+  stroke: #ff7e2d !important;
+}
+#non-passing-grade-tooltip {
+  background: #ff7e2d !important;
+  border-color: #ff7e2d !important;
+}
+#non-passing-grade-tooltip .arrow:after, #non-passing-grade-tooltip .arrow:before {
+  border-top-color: #ff7e2d !important;
+}
+.grade-bar .grade-bar--passing {
+  fill: #ff7e2d !important;
+}
+div[role=heading].h2+.list-unstyled.m-0.mt-4.pt-2 li:first-child.dates-day.pb-4 .dates-dot.border.border-gray-900 {
+  background: #ff7e2d !important;
+  border: 2px solid #ff7e2d !important;
+}
+div[role=heading].h2+.list-unstyled.m-0.mt-4.pt-2 li:first-child.dates-day.pb-4 .dates-line-bottom {
+  border-color: #ff7e2d !important;
+}
+#courseHome-outline .collapsible-body .text-success {
+  color: #ff7e2d !important;
+}
+#courseHome-outline .collapsible-trigger .text-success {
+  color: #ff7e2d !important;
+}
+btn-icon.btn-icon-primary {
+  color: #ff7e2d !important;
+}
