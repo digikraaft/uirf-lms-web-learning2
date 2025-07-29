@@ -16,7 +16,7 @@ const config = {
           widget: {
             id: 'custom_footer',
             type: DIRECT_PLUGIN,
-            FooterSlot,
+            RenderWidget: FooterSlot,
           },
         },
       ]
