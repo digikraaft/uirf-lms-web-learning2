@@ -254,3 +254,5 @@ Reporting Security Issues
 =========================
 
 Please do not report security issues in public. Please email security@openedx.org.
+
+//removed "@openedx/frontend-slot-footer": "^1.0.2", from package
