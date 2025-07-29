@@ -1,7 +1,7 @@
 // import React from 'react';
 import { Col, Container, Row } from '@openedx/paragon';
 
-const FooterSlot = () => (
+const CustomFooterSlot = () => (
     <footer className="bg-primary px-4 xl:px-20 py-8 lg:px-10 xl:py-28 text-white">
       <div className="w-full flex flex-col justify-start lg:flex-row lg:items-start lg:justify-between space-x-10 text-white">
         <div className="w-full lg:w-auto flex justify-start lg:inline">
@@ -48,4 +48,4 @@ const FooterSlot = () => (
     </footer>
 );
 
-export default FooterSlot;
+export default CustomFooterSlot;

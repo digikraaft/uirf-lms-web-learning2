@@ -1,5 +1,5 @@
 import { DIRECT_PLUGIN, PLUGIN_OPERATIONS } from '@openedx/frontend-plugin-framework';
-import FooterSlot from "@src/plugin-slots/FooterSlot/CustomFooter";
+import CustomFooterSlot from "@src/plugin-slots/FooterSlot/CustomFooter";
 
 const config = {
   pluginSlots: {
@@ -16,7 +16,7 @@ const config = {
           widget: {
             id: 'custom_footer',
             type: DIRECT_PLUGIN,
-            RenderWidget: FooterSlot,
+            RenderWidget: CustomFooterSlot,
           },
         },
       ]
